@@ -161,11 +161,10 @@ when there are no arguments on the same line as the function name.
       [x]
       (bar x))
 
-    ;; good
+    ;; bad
     (defn foo [x]
       (bar x))
 
-    ;; bad
     (defn foo
       [x] (bar x))
     ```
